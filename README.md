@@ -20,7 +20,7 @@ limitations under the License.
 
 # forIn
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Invoke a function for each own and inherited enumerable property of an object.
 
@@ -206,8 +206,8 @@ console.log( obj );
 
 ## See Also
 
--   [`@stdlib/utils/for-each`][@stdlib/utils/for-each]: invoke a function for each element in a collection.
--   [`@stdlib/utils/for-own`][@stdlib/utils/for-own]: invoke a function for each own enumerable property of an object.
+-   <span class="package-name">[`@stdlib/utils/for-each`][@stdlib/utils/for-each]</span><span class="delimiter">: </span><span class="description">invoke a function for each element in a collection.</span>
+-   <span class="package-name">[`@stdlib/utils/for-own`][@stdlib/utils/for-own]</span><span class="delimiter">: </span><span class="description">invoke a function for each own enumerable property of an object.</span>
 
 </section>
 
@@ -258,8 +258,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-for-in/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-for-in?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/utils-for-in.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/utils-for-in/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
