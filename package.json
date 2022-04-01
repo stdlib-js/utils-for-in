@@ -1,0 +1,43 @@
+{
+  "name": "@stdlib/utils-for-in",
+  "version": "0.0.0",
+  "description": "Invoke a function for each own and inherited enumerable property of an object.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-for-in.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "for",
+    "in",
+    "forin",
+    "object.keys",
+    "keys",
+    "properties",
+    "props",
+    "enumerable",
+    "inherited",
+    "inheritance",
+    "prototype",
+    "iterate",
+    "object",
+    "obj"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
