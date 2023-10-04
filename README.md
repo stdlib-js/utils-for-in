@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import forIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-for-in@deno/mod.js';
+import forIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-for-in@v0.1.1-deno/mod.js';
 ```
 
 #### forIn( obj, fcn\[, thisArg ] )
@@ -162,7 +162,7 @@ var mean = context.sum / context.count;
 
 ```javascript
 import fromCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-from-code-point@deno/mod.js';
-import forIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-for-in@deno/mod.js';
+import forIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-for-in@v0.1.1-deno/mod.js';
 
 function update( value, key, obj ) {
     console.log( '%s: %d', key, value );
