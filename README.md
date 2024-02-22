@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import forIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-for-in@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-for-in/tags). For example,
+
+```javascript
 import forIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-for-in@v0.2.1-esm/index.mjs';
 ```
 
@@ -167,7 +172,7 @@ var mean = context.sum / context.count;
 <script type="module">
 
 import fromCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-from-code-point@esm/index.mjs';
-import forIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-for-in@v0.2.1-esm/index.mjs';
+import forIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-for-in@esm/index.mjs';
 
 function update( value, key, obj ) {
     console.log( '%s: %d', key, value );
